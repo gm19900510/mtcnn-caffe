@@ -72,6 +72,6 @@ Update `tools_matrix.py` to make calculate faster, about 160ms/image.
 - 将12net目录下的12net.prototxt、12net.caffemodel复制到models目录，并改名为det1.prototxt、det1.caffemodel
 - 将24net目录下的24net.prototxt、24net.caffemodel复制到models目录，并改名为det3.prototxt、det3.caffemodel
 - 将48net目录下的48net.prototxt、48net.caffemodel复制到models目录，并改名为det3.prototxt、det3.caffemodel
-- 执行caffe2tf.py代码进行转换
+- 执行caffe2tf.py代码进行转换 https://github.com/gm19900510/MTCNN/blob/master/tensorflow/caffe2tf.py
 - pip install tensorflow-gpu==1.5.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
